@@ -14,6 +14,8 @@
 		7FCA115A26C4561900E74CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA115926C4561900E74CD2 /* Assets.xcassets */; };
 		7FCA115D26C4561900E74CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA115B26C4561900E74CD2 /* LaunchScreen.storyboard */; };
 		7FCA116026C4561900E74CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA115F26C4561900E74CD2 /* main.m */; };
+		7FCA116826C459D800E74CD2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA116726C459D800E74CD2 /* Person.m */; };
+		7FCA116B26C487BC00E74CD2 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA116A26C487BC00E74CD2 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		7FCA115C26C4561900E74CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FCA115E26C4561900E74CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FCA115F26C4561900E74CD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FCA116626C459D800E74CD2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7FCA116726C459D800E74CD2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7FCA116926C487BC00E74CD2 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		7FCA116A26C487BC00E74CD2 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 		7FCA114C26C4561800E74CD2 /* practiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				7FCA116926C487BC00E74CD2 /* Vehicle.h */,
+				7FCA116A26C487BC00E74CD2 /* Vehicle.m */,
+				7FCA116626C459D800E74CD2 /* Person.h */,
+				7FCA116726C459D800E74CD2 /* Person.m */,
 				7FCA114D26C4561800E74CD2 /* AppDelegate.h */,
 				7FCA114E26C4561800E74CD2 /* AppDelegate.m */,
 				7FCA115026C4561800E74CD2 /* SceneDelegate.h */,
@@ -147,6 +157,8 @@
 			files = (
 				7FCA115526C4561800E74CD2 /* ViewController.m in Sources */,
 				7FCA114F26C4561800E74CD2 /* AppDelegate.m in Sources */,
+				7FCA116B26C487BC00E74CD2 /* Vehicle.m in Sources */,
+				7FCA116826C459D800E74CD2 /* Person.m in Sources */,
 				7FCA116026C4561900E74CD2 /* main.m in Sources */,
 				7FCA115226C4561800E74CD2 /* SceneDelegate.m in Sources */,
 			);
