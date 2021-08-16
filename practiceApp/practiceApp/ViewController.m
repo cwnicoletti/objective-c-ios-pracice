@@ -9,6 +9,7 @@
 #import "Person.h"
 #import "Vehicle.h"
 #import "Person2.h"
+#import "Civic.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Civic *civic = [[Civic alloc] init];
     
     BOOL amICool = YES;
     BOOL notCool = NO;
@@ -105,7 +108,54 @@
     NSLog(@"I drive a %@", car.model);
     self.bankAccount = 500.50;
     self.itemAmount = 400.00;
-}
+    
+    NSArray *arr = [NSArray arrayWithObjects:@"my", @"mother", @"told", @"me", nil];
+    NSArray *arr2 = @[@"Donkey", @"Kong", @"ate"];
+    
+    NSString *str = [arr objectAtIndex:2];
+    
+    arr = @[@"Mario", @"Toadstool"];
+    
+    NSMutableArray *mut = [NSMutableArray arrayWithObjects:@"my", @"mother", @"told", @"me", nil];
+    NSLog(@"MUT: @%", mut.debugDescription);
+    
+    [mut removeObjectAtIndex:2];
+    [mut addObject:@"Beast master"];
+    NSLog(@"Mut 2:", mut.debugDescription);
+    
+    NSArray *arr3 = [NSArray arrayWithArray:arr];
+    
+    NSArray *arr4 = mut;
+//    NSMutableArray *arr4 = arr;
+    
+//    NSString *str = @"Yay for strings!";
+    
+    NSNumber *age = [NSNumber numberWithInt:40];
+    NSNumber *age2 = [NSNumber numberWithInt:34];
+    
+    NSDictionary *dict = @{@"jack": age, @"jon": age2};
+    NSDictionary *dict2 = [[NSDictionary alloc] init];
+    
+    
+    int jacksAge = [[dict objectForKey:@"jack"] intValue];
+    NSLog(@"Jacks age: %d", jacksAge);
+    
+    NSMutableDictionary *mut2 = [@{@"1": @"BMW", @"2": @"VOLVO", @"3": @"Ugly Honda Civic"} mutableCopy];
+    NSMutableDictionary *mut3 = [[NSMutableDictionary alloc] init];
+    [mut3 setObject:@"An Object" forKey:@"A key"];
+    [mut3 setObject:[NSNumber numberWithDouble:20.00] forKey:@"doubleTrouble"];
+    
+    NSArray *cars = @[@"Bimmer", @"Maserati", @"Bronco II"];
+    
+    for (int x=0; x<cars.count; x++) {
+        NSString *car = [cars objectAtIndex:x];
+        NSLog(@"Car: %@", car);
+    }
+    
+    for (NSString *car in cars) {
+        NSLog(@"Car: %@", car);
+    }
+};
 
 - (BOOL) canPurchase:(double)amount {
     if (self.bankAccount >= amount)
