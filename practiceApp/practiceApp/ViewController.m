@@ -8,10 +8,14 @@
 #import "ViewController.h"
 #import "Person.h"
 #import "Vehicle.h"
+#import "Person2.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) NSString *vehicle;
+
+@property (nonatomic) double bankAccount;
+@property (nonatomic) double itemAmount;
 
 @end
 
@@ -20,6 +24,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    BOOL amICool = YES;
+    BOOL notCool = NO;
+    
+    if (amICool) {
+        NSLog(@"WHip out your sunglasses stupid");
+    } else {
+        NSLog(@"We should never get here!");
+    }
+    
+    NSString *name = nil;
+    
+    if (name) {
+        NSLog(@"Name: %@", name);
+    }
+    
+    if (!name) {
+        NSLog(@"Name: %@", name);
+    }
+    
+    bool sayWhat;
+    Boolean hmmm;
+    boolean_t grrrr;
     
     int imAnInt = 5;
     float iAmAFloat = 3.3;
@@ -76,6 +103,44 @@
     car.model = @"Honda Civic";
     
     NSLog(@"I drive a %@", car.model);
+    self.bankAccount = 500.50;
+    self.itemAmount = 400.00;
+}
+
+- (BOOL) canPurchase:(double)amount {
+    if (self.bankAccount >= amount)
+        return YES;
+    
+    return NO;
+}
+
+- (void) declareWinnerWithPlayerAScore:(NSInteger)scoreA playerBScore:(NSInteger)scoreB {
+    if (scoreA > scoreB)
+        NSLog(@"Player A Wins!");
+    else if (scoreB > scoreA)
+        NSLog(@"Player B Wins!");
+    else
+        NSLog(@"The game is at a standstill!");
+}
+
+- (void) playground {
+    if ([self canPurchase:self.itemAmount]) {
+        NSLog(@"We can buy!");
+    }
+    
+    [self declareWinnerWithPlayerAScore:55 playerBScore:66];
+    
+    Person *person = [[Person alloc]init];
+    [person speakName];
+    [Person stateSpecies];
+    
+//    UIImage *image1 = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://google.com"]]];
+    
+    NSString *urlString = @"http://google.com";
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    
+    UIImage *image2 = [UIImage imageWithData:data];
 }
 
 

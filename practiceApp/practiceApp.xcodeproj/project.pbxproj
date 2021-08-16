@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F625DD426CA041600C8AB6A /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F625DD326CA041600C8AB6A /* Person2.m */; };
 		7FCA114F26C4561800E74CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA114E26C4561800E74CD2 /* AppDelegate.m */; };
 		7FCA115226C4561800E74CD2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA115126C4561800E74CD2 /* SceneDelegate.m */; };
 		7FCA115526C4561800E74CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA115426C4561800E74CD2 /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F625DD226CA041600C8AB6A /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
+		7F625DD326CA041600C8AB6A /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
 		7FCA114A26C4561800E74CD2 /* practiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCA114D26C4561800E74CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FCA114E26C4561800E74CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				7FCA115126C4561800E74CD2 /* SceneDelegate.m */,
 				7FCA115326C4561800E74CD2 /* ViewController.h */,
 				7FCA115426C4561800E74CD2 /* ViewController.m */,
+				7F625DD226CA041600C8AB6A /* Person2.h */,
+				7F625DD326CA041600C8AB6A /* Person2.m */,
 				7FCA115626C4561800E74CD2 /* Main.storyboard */,
 				7FCA115926C4561900E74CD2 /* Assets.xcassets */,
 				7FCA115B26C4561900E74CD2 /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 				7FCA116826C459D800E74CD2 /* Person.m in Sources */,
 				7FCA116026C4561900E74CD2 /* main.m in Sources */,
 				7FCA115226C4561800E74CD2 /* SceneDelegate.m in Sources */,
+				7F625DD426CA041600C8AB6A /* Person2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

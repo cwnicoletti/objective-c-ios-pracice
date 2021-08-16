@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Person2 : NSObject
 
+- (void)speakName;
++ (void)stateSpecies;
+
 @end
 
 NS_ASSUME_NONNULL_END

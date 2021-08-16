@@ -13,6 +13,7 @@
 @property (nonatomic) int age;
 @property (nonatomic) NSInteger debt;
 @property (nonatomic) NSNumber *bankBalance;
+@property (nonatomic, assign) BOOL isItSunny;
 
 @end
 

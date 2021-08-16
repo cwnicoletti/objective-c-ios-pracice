@@ -9,4 +9,12 @@
 
 @implementation Person2
 
+- (void)speakName {
+    NSLog(@"My name is Christian Nicoletti (and I think I'm really cool!");
+}
+
++ (void)stateSpecies {
+    NSLog(@"I am a human");
+}
+
 @end
