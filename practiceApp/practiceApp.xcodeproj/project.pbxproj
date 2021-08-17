@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5DE22C26CC574B006B23D1 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE22B26CC574B006B23D1 /* School.m */; };
 		7F625DD426CA041600C8AB6A /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F625DD326CA041600C8AB6A /* Person2.m */; };
 		7F69AA4E26CAFC2D00101B6F /* Vehicle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AA4D26CAFC2D00101B6F /* Vehicle2.m */; };
 		7F69AA5126CAFC9B00101B6F /* Civic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AA5026CAFC9B00101B6F /* Civic.m */; };
+		7F69AA5426CB255000101B6F /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AA5326CB255000101B6F /* Person3.m */; };
+		7F69AA5726CB256A00101B6F /* Backpack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AA5626CB256A00101B6F /* Backpack.m */; };
 		7FCA114F26C4561800E74CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA114E26C4561800E74CD2 /* AppDelegate.m */; };
 		7FCA115226C4561800E74CD2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA115126C4561800E74CD2 /* SceneDelegate.m */; };
 		7FCA115526C4561800E74CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA115426C4561800E74CD2 /* ViewController.m */; };
@@ -22,12 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F5DE22A26CC574B006B23D1 /* School.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		7F5DE22B26CC574B006B23D1 /* School.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
 		7F625DD226CA041600C8AB6A /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
 		7F625DD326CA041600C8AB6A /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
 		7F69AA4C26CAFC2D00101B6F /* Vehicle2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle2.h; sourceTree = "<group>"; };
 		7F69AA4D26CAFC2D00101B6F /* Vehicle2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle2.m; sourceTree = "<group>"; };
 		7F69AA4F26CAFC9B00101B6F /* Civic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Civic.h; sourceTree = "<group>"; };
 		7F69AA5026CAFC9B00101B6F /* Civic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Civic.m; sourceTree = "<group>"; };
+		7F69AA5226CB255000101B6F /* Person3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person3.h; sourceTree = "<group>"; };
+		7F69AA5326CB255000101B6F /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
+		7F69AA5526CB256A00101B6F /* Backpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Backpack.h; sourceTree = "<group>"; };
+		7F69AA5626CB256A00101B6F /* Backpack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Backpack.m; sourceTree = "<group>"; };
 		7FCA114A26C4561800E74CD2 /* practiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCA114D26C4561800E74CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FCA114E26C4561800E74CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +106,12 @@
 				7F69AA4D26CAFC2D00101B6F /* Vehicle2.m */,
 				7F69AA4F26CAFC9B00101B6F /* Civic.h */,
 				7F69AA5026CAFC9B00101B6F /* Civic.m */,
+				7F69AA5226CB255000101B6F /* Person3.h */,
+				7F69AA5326CB255000101B6F /* Person3.m */,
+				7F69AA5526CB256A00101B6F /* Backpack.h */,
+				7F69AA5626CB256A00101B6F /* Backpack.m */,
+				7F5DE22A26CC574B006B23D1 /* School.h */,
+				7F5DE22B26CC574B006B23D1 /* School.m */,
 			);
 			path = practiceApp;
 			sourceTree = "<group>";
@@ -172,13 +187,16 @@
 			files = (
 				7FCA115526C4561800E74CD2 /* ViewController.m in Sources */,
 				7FCA114F26C4561800E74CD2 /* AppDelegate.m in Sources */,
+				7F69AA5426CB255000101B6F /* Person3.m in Sources */,
 				7FCA116B26C487BC00E74CD2 /* Vehicle.m in Sources */,
+				7F69AA5726CB256A00101B6F /* Backpack.m in Sources */,
 				7FCA116826C459D800E74CD2 /* Person.m in Sources */,
 				7FCA116026C4561900E74CD2 /* main.m in Sources */,
 				7FCA115226C4561800E74CD2 /* SceneDelegate.m in Sources */,
 				7F69AA5126CAFC9B00101B6F /* Civic.m in Sources */,
 				7F625DD426CA041600C8AB6A /* Person2.m in Sources */,
 				7F69AA4E26CAFC2D00101B6F /* Vehicle2.m in Sources */,
+				7F5DE22C26CC574B006B23D1 /* School.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

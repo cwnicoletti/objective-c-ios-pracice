@@ -22,9 +22,19 @@
 
 @implementation ViewController
 
+- (int)sum:(NSNumber* _Nonnull)numA :(NSNumber* _Nonnull)numB {
+    int theSum = numA.intValue + numB.intValue;
+    return theSum;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSNumber *num1;
+    NSNumber *num2;
+    
+    int sum = [self sum:num1 :num2];
     
     Civic *civic = [[Civic alloc] init];
     
@@ -142,6 +152,7 @@
     
     NSMutableDictionary *mut2 = [@{@"1": @"BMW", @"2": @"VOLVO", @"3": @"Ugly Honda Civic"} mutableCopy];
     NSMutableDictionary *mut3 = [[NSMutableDictionary alloc] init];
+    NSMutableDictionary *mut4 = [NSMutableDictionary dictionaryWithObjects:[NSArray arrayWithObjects:[NSNumber numberWithDouble:20.00], [NSNumber numberWithInteger:3], nil] forKeys:[NSArray arrayWithObjects:@"Hello", @"yes", nil]];
     [mut3 setObject:@"An Object" forKey:@"A key"];
     [mut3 setObject:[NSNumber numberWithDouble:20.00] forKey:@"doubleTrouble"];
     
@@ -180,9 +191,9 @@
     
     [self declareWinnerWithPlayerAScore:55 playerBScore:66];
     
-    Person *person = [[Person alloc]init];
+    Person2 *person = [[Person2 alloc]init];
     [person speakName];
-    [Person stateSpecies];
+    [Person2 stateSpecies];
     
 //    UIImage *image1 = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://google.com"]]];
     
