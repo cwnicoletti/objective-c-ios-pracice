@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7F5DE22C26CC574B006B23D1 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE22B26CC574B006B23D1 /* School.m */; };
+		7F5DE22F26CC602B006B23D1 /* Honda.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE22E26CC602B006B23D1 /* Honda.m */; };
+		7F5DE23226CC60B5006B23D1 /* Honda+SupedUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE23126CC60B5006B23D1 /* Honda+SupedUp.m */; };
+		7F5DE23726CC667F006B23D1 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE23626CC667F006B23D1 /* SecondVC.swift */; };
 		7F625DD426CA041600C8AB6A /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F625DD326CA041600C8AB6A /* Person2.m */; };
 		7F69AA4E26CAFC2D00101B6F /* Vehicle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AA4D26CAFC2D00101B6F /* Vehicle2.m */; };
 		7F69AA5126CAFC9B00101B6F /* Civic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F69AA5026CAFC9B00101B6F /* Civic.m */; };
@@ -27,6 +30,12 @@
 /* Begin PBXFileReference section */
 		7F5DE22A26CC574B006B23D1 /* School.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
 		7F5DE22B26CC574B006B23D1 /* School.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		7F5DE22D26CC602B006B23D1 /* Honda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Honda.h; sourceTree = "<group>"; };
+		7F5DE22E26CC602B006B23D1 /* Honda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Honda.m; sourceTree = "<group>"; };
+		7F5DE23026CC60B5006B23D1 /* Honda+SupedUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Honda+SupedUp.h"; sourceTree = "<group>"; };
+		7F5DE23126CC60B5006B23D1 /* Honda+SupedUp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Honda+SupedUp.m"; sourceTree = "<group>"; };
+		7F5DE23526CC667F006B23D1 /* practiceApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "practiceApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F5DE23626CC667F006B23D1 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		7F625DD226CA041600C8AB6A /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
 		7F625DD326CA041600C8AB6A /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
 		7F69AA4C26CAFC2D00101B6F /* Vehicle2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle2.h; sourceTree = "<group>"; };
@@ -112,6 +121,12 @@
 				7F69AA5626CB256A00101B6F /* Backpack.m */,
 				7F5DE22A26CC574B006B23D1 /* School.h */,
 				7F5DE22B26CC574B006B23D1 /* School.m */,
+				7F5DE22D26CC602B006B23D1 /* Honda.h */,
+				7F5DE22E26CC602B006B23D1 /* Honda.m */,
+				7F5DE23026CC60B5006B23D1 /* Honda+SupedUp.h */,
+				7F5DE23126CC60B5006B23D1 /* Honda+SupedUp.m */,
+				7F5DE23626CC667F006B23D1 /* SecondVC.swift */,
+				7F5DE23526CC667F006B23D1 /* practiceApp-Bridging-Header.h */,
 			);
 			path = practiceApp;
 			sourceTree = "<group>";
@@ -146,6 +161,7 @@
 				TargetAttributes = {
 					7FCA114926C4561800E74CD2 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -186,15 +202,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FCA115526C4561800E74CD2 /* ViewController.m in Sources */,
+				7F5DE23726CC667F006B23D1 /* SecondVC.swift in Sources */,
 				7FCA114F26C4561800E74CD2 /* AppDelegate.m in Sources */,
 				7F69AA5426CB255000101B6F /* Person3.m in Sources */,
 				7FCA116B26C487BC00E74CD2 /* Vehicle.m in Sources */,
 				7F69AA5726CB256A00101B6F /* Backpack.m in Sources */,
 				7FCA116826C459D800E74CD2 /* Person.m in Sources */,
+				7F5DE22F26CC602B006B23D1 /* Honda.m in Sources */,
 				7FCA116026C4561900E74CD2 /* main.m in Sources */,
 				7FCA115226C4561800E74CD2 /* SceneDelegate.m in Sources */,
 				7F69AA5126CAFC9B00101B6F /* Civic.m in Sources */,
 				7F625DD426CA041600C8AB6A /* Person2.m in Sources */,
+				7F5DE23226CC60B5006B23D1 /* Honda+SupedUp.m in Sources */,
 				7F69AA4E26CAFC2D00101B6F /* Vehicle2.m in Sources */,
 				7F5DE22C26CC574B006B23D1 /* School.m in Sources */,
 			);
@@ -339,7 +358,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QZHR7J4TX5;
 				INFOPLIST_FILE = practiceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,6 +369,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.practiceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "practiceApp/practiceApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -357,7 +381,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QZHR7J4TX5;
 				INFOPLIST_FILE = practiceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,6 +392,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.practiceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "practiceApp/practiceApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

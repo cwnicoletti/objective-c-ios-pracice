@@ -10,6 +10,9 @@
 #import "Vehicle.h"
 #import "Person2.h"
 #import "Civic.h"
+#import "Honda.h"
+#import "Honda+SupedUp.h"
+#import "practiceApp-Swift.h"
 
 @interface ViewController ()
 
@@ -17,6 +20,8 @@
 
 @property (nonatomic) double bankAccount;
 @property (nonatomic) double itemAmount;
+
+@property (nonatomic, strong) SecondVC *secondVC;
 
 @end
 
@@ -27,9 +32,20 @@
     return theSum;
 }
 
+- (IBAction)loadSecondVC:(id)sender {
+    _secondVC = [[SecondVC alloc] init];
+    _secondVC.view.backgroundColor = [UIColor purpleColor];
+    [self presentViewController:_secondVC animated:YES completion:nil];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Honda *honda = [[Honda alloc] init];
+    [honda addUglySpoiler];
+    
     
     NSNumber *num1;
     NSNumber *num2;
